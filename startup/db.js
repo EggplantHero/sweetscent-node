@@ -3,6 +3,7 @@ const config = require("config");
 
 module.exports = function () {
   const db = config.get("db");
+  console.log("database name:");
   console.log(db);
   mongoose.set("useCreateIndex", true);
   mongoose
@@ -12,5 +13,3 @@ module.exports = function () {
     })
     .then(() => console.log(`Connected to ${db}...`));
 };
-
-
