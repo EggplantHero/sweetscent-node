@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "shiny-tracker_jwtPrivateKey",
+  "db": "shiny-tracker_db"
+}
