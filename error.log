@@ -6,3 +6,4 @@
 {"level":"error","message":"The comparison function must be either a function or undefined"}
 {"level":"error","message":"The comparison function must be either a function or undefined"}
 {"level":"error","message":"The comparison function must be either a function or undefined"}
+{"level":"error","message":"Unexpected string in JSON at position 28"}
