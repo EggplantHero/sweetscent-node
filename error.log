@@ -7,3 +7,10 @@
 {"level":"error","message":"The comparison function must be either a function or undefined"}
 {"level":"error","message":"The comparison function must be either a function or undefined"}
 {"level":"error","message":"Unexpected string in JSON at position 28"}
+{"level":"error","message":"Cannot read property 'pokes' of null"}
+{"level":"error","message":"Cannot read property 'remove' of null"}
+{"level":"error","message":"Cannot read property 'remove' of null"}
+{"level":"error","message":"Cannot read property 'remove' of null"}
+{"level":"error","message":"Cannot read property 'remove' of null"}
+{"level":"error","message":"Cannot read property 'remove' of null"}
+{"level":"error","message":"Cannot read property 'remove' of null"}

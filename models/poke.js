@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Joi = require("joi");
 
 const pokeSchema = new mongoose.Schema({
-  name: { type: String, required: true, minlength: 3, maxlength: 11 },
+  name: { type: String, required: true, minlength: 3 },
   count: { type: Number, required: true, min: 0 },
 });
 
