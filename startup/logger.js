@@ -11,7 +11,7 @@ module.exports = createLogger({
       level: "verbose",
     }),
     new transports.MongoDB({
-      db: "mongodb://localhost/shiny-tracker",
+      db: "mongodb://localhost/sweetscent",
       options: {
         useUnifiedTopology: true,
         useNewUrlParser: true,
