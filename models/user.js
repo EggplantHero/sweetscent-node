@@ -13,7 +13,6 @@ const userSchema = new mongoose.Schema({
     unique: true,
   },
   password: { type: String, required: true, minlength: 5, maxlength: 1024 },
-  isAdmin: Boolean,
   pokes: [pokeSchema],
 });
 
@@ -22,7 +21,6 @@ userSchema.methods.generateAuthToken = function () {
     {
       _id: this._id,
       username: this.username,
-      isAdmin: this.isAdmin,
     },
     config.get("jwtPrivateKey")
   );
