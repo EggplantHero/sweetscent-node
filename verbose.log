@@ -36,3 +36,7 @@
 {"level":"verbose","message":"TypeError: Cannot read property 'remove' of null\n    at router.delete (C:\\Users\\Jesse\\Desktop\\Node\\shiny-tracker-node\\routes\\pokemon.js:71:8)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
 {"level":"error","message":"Cannot read property 'remove' of null"}
 {"level":"verbose","message":"TypeError: Cannot read property 'remove' of null\n    at router.delete (C:\\Users\\Jesse\\Desktop\\Node\\shiny-tracker-node\\routes\\pokemon.js:71:8)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"level":"error","message":"Cannot read property 'pokes' of null"}
+{"level":"verbose","message":"TypeError: Cannot read property 'pokes' of null\n    at router.get (C:\\Users\\Jesse\\Desktop\\Node\\sweetscent-node\\routes\\pokemon.js:9:29)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"level":"error","message":"Cannot read property 'pokes' of null"}
+{"level":"verbose","message":"TypeError: Cannot read property 'pokes' of null\n    at router.get (C:\\Users\\Jesse\\Desktop\\Node\\sweetscent-node\\routes\\pokemon.js:9:29)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
